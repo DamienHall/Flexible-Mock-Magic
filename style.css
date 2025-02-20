@@ -88,9 +88,14 @@ footer {
 /* CODE YOUR FLEXBOXES HERE */
 .navbar {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav-links {
     display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
 }
